@@ -16,6 +16,7 @@ The backend framework runs on interacting three scripts: two python and one bash
 <img width="1053" alt="Screenshot 2023-07-31 at 1 49 38 PM" src="https://github.com/ishaan-awasthi/dashframe-template-v2/assets/136520517/e9babc5a-7c7a-415f-b471-7a0de0b3481a">
 
 Steps to operate package:
+
 0. Make sure python and MacOS are installed
 1. Open terminal in preferred profile and navigate to dashframe-template-v2/scripts via [$cd ~/path]
 2. Open two more tabs in the terminal window via [⌘T] or [Shell-->New Tab]
