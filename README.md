@@ -5,9 +5,13 @@ realtime data generation streamed to localhost dash framework server
 
 This package visualizes four CSV files. The 'sleep' and 'steps' files are hardcoded with data, while the 'heart' and 'spo2' CSVs are continuously updated in real time with new data generated from a finetuned RNG.
 
+
+
 <img width="854" alt="Screenshot 2023-07-31 at 1 42 31 PM" src="https://github.com/ishaan-awasthi/dashframe-template-v2/assets/136520517/8212a4e5-be70-4c84-bf4e-7ec054f7f74a">
 
 The backend framework runs on interacting three scripts: two python and one bash shell. While app.py initializes the localhost server, rng.py generates new data in real time to the csv files. The touch.sh script then pings app.py, forcing a refresh of the data.
+
+
 
 <img width="1053" alt="Screenshot 2023-07-31 at 1 49 38 PM" src="https://github.com/ishaan-awasthi/dashframe-template-v2/assets/136520517/e9babc5a-7c7a-415f-b471-7a0de0b3481a">
 
